@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/capitalspark-link">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/borrower" element={<Borrower />} />
